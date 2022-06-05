@@ -1,4 +1,7 @@
-import { Wrapper, Header, Title, Body } from "./styled";
+import React from "react";
+import { Wrapper, Header, Title, Body, Button } from "./styled";
+
+
 
 const Section = ({ title, body, extraHeaderContent }) => (
     <Wrapper>

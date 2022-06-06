@@ -1,15 +1,15 @@
 import React from "react";
 import Form from "./Form";
-import TaskList from "./TaskList";
+import TaskList from "../TaskList";
 import Buttons from "./Buttons";
-import Section from "../../common/Section";
-import Header from "../../common/Header";
-import Container from "../../common/Container";
-import { Button } from "./Button";
+import Section from "../../../common/Section";
+import Header from "../../../common/Header";
+import Container from "../../../common/Container";
+import { Button } from "../Button";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchExampleTasks } from "./tasksSlice";
+import { fetchExampleTasks } from "../tasksSlice";
  
-const Tasks = () => {
+const TasksPage = () => {
   const dispatch = useDispatch();
   
   return (
@@ -35,4 +35,4 @@ const Tasks = () => {
   );
 };
 
-export default Tasks;
+export default TasksPage;

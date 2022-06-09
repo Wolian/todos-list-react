@@ -1,6 +1,25 @@
 # Task list 
 
-Description
+## Demo
+https://wolian.github.io/todos-list-react/
+
+## Used technology
+
+- HTML
+- CSS
+- JavaScript
+- Create-React-App
+- JSX
+- Babel
+- MediaQueries
+- React hooks
+- Custom hooks
+- BEM
+- Immutability
+- Styled-components
+- Redux
+- Redux-Saga
+- React-Router
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

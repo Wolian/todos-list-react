@@ -1,5 +1,5 @@
 import React from "react";
-import { Wrapper, Header, Title, Body, Button } from "./styled";
+import { Wrapper, Header, Title, Body,} from "./styled";
 
 
 
